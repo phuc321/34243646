@@ -1,0 +1,58 @@
+button-group {
+    display: flex;
+    gap: 10px;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255); 
+    background-color: #9c9c9c; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+button:hover {
+    background-color: #ff5e00; 
+}
+button:active {
+    background-color: #642500; 
+    color: #ffffff; 
+    transform: scale(0.95); 
+}
+button i {
+    margin-right: 10px;
+}
+a {
+    color: #ff6600; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+a:hover {
+    color: #944300; 
+    text-decoration: underline;
+} 
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255); color:
+    ■white；
+}
+img {
+    width: 600px; 
+    border-radius: 0px;
+    max-width: 100%; 
+    height: auto; 
+}
+small img {
+    width: auto;
+    height: 14px;
+}
+.center-text {
+    text-align: center;
+}
+p {
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
